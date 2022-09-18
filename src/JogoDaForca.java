@@ -48,14 +48,17 @@ public class JogoDaForca {
 	}
 	public ArrayList<Integer> getPosicoes(String letra) throws Exception{
 		ArrayList<Integer> posicoes = new ArrayList<>();
+		int contador = 0;
 		for (int indice = 0; indice < getTamanho(); indice++ ) {
 			if (letras[indice].equals(letra.toUpperCase())){
 				posicoes.add(indice);
 				acertos+=1;
 				letras[indice] = "*";
-			}
+			} else { contador+=1; }
 		}
-		penalidade+=1;
+		if (contador == getTamanho()) {
+			penalidade +=1;
+		}
 		return posicoes;
 	}
 	public boolean terminou() {
