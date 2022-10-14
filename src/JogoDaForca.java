@@ -72,7 +72,7 @@ public class JogoDaForca {
 		return posicoes;
 	}
 	public boolean terminou() {
-		if( (penalidade == 6) || ( acertos == getTamanho())) {
+		if( ( acertos == getTamanho() || (penalidade == 6))) {
 			return true;
 		} return false;
 	}
