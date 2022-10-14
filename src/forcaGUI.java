@@ -100,8 +100,8 @@ public class forcaGUI {
 		label_1_1.setBounds(10, 116, 254, 32);
 		frmJogoDaForca.getContentPane().add(label_1_1);
 		
-		JLabel label_6 = new JLabel("TENTATIVA = ");
-		label_6.setBounds(402, 159, 155, 14);
+		JLabel label_6 = new JLabel("TENTATIVAS = 0");
+		label_6.setBounds(441, 159, 104, 14);
 		frmJogoDaForca.getContentPane().add(label_6);
 		
 		JLabel label_4 = new JLabel("letrinhas:");
@@ -114,12 +114,12 @@ public class forcaGUI {
 		
 		JLabel lblNewLabel_2 = new JLabel("ACERTOS = 0 ");
 		lblNewLabel_2.setBackground(new Color(0, 255, 0));
-		lblNewLabel_2.setBounds(473, 109, 84, 14);
+		lblNewLabel_2.setBounds(441, 116, 84, 14);
 		frmJogoDaForca.getContentPane().add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_3 = new JLabel("ERROS = 0 ");
 		lblNewLabel_3.setBackground(new Color(255, 0, 0));
-		lblNewLabel_3.setBounds(485, 134, 72, 14);
+		lblNewLabel_3.setBounds(442, 134, 72, 14);
 		frmJogoDaForca.getContentPane().add(lblNewLabel_3);
 		
 		JLabel label_2 = new JLabel("New label");
